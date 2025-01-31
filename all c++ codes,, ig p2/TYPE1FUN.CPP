@@ -1,0 +1,20 @@
+#include<iostream.h>
+#include<conio.h>
+
+// no args no return
+
+void square(void) {
+	clrscr();
+	int num, sq;              //input
+	cout << "Enter num: ";
+	cin >> num;
+	sq = num * num;           //process
+	cout << "Square is " << sq;    //output
+}
+
+void main() {
+	square();
+	getch();
+	square();
+	getch();
+}
